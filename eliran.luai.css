@@ -271,8 +271,6 @@
         border-radius: 10px;
         font-weight: bold;
         cursor: pointer;
-        margin-left: auto;
-        margin-right: auto;
         position: relative;
         display: inline-block;
     }
@@ -315,7 +313,7 @@
 
     .contact-items {
         display: flex;
-        gap: 220px;
+        display: contents;
     }
 
     .contact-item {
